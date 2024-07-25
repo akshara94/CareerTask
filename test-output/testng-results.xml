@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-25T23:07:52 IST" name="Suite" finished-at="2024-07-25T23:08:07 IST" duration-ms="14790">
+    <groups>
+    </groups>
+    <test started-at="2024-07-25T23:07:52 IST" name="Test" finished-at="2024-07-25T23:08:07 IST" duration-ms="14790">
+      <class name="TestComponant.TestCase1">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:TestComponant.TestCase1@7586beff]" started-at="2024-07-25T23:07:52 IST" name="startReport" finished-at="2024-07-25T23:07:52 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestComponant.TestCase1@7586beff]" started-at="2024-07-25T23:07:53 IST" name="beforemethod" finished-at="2024-07-25T23:07:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="Testcases_01()[pri:0, instance:TestComponant.TestCase1@7586beff]" started-at="2024-07-25T23:07:53 IST" name="Testcases_01" finished-at="2024-07-25T23:08:01 IST" duration-ms="8860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcases_01 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestComponant.TestCase1@7586beff]" started-at="2024-07-25T23:08:01 IST" name="aftermethod" finished-at="2024-07-25T23:08:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestComponant.TestCase1@7586beff]" started-at="2024-07-25T23:08:01 IST" name="beforemethod" finished-at="2024-07-25T23:08:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="Testcases_02()[pri:1, instance:TestComponant.TestCase1@7586beff]" started-at="2024-07-25T23:08:01 IST" name="Testcases_02" finished-at="2024-07-25T23:08:07 IST" duration-ms="5850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcases_02 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestComponant.TestCase1@7586beff]" started-at="2024-07-25T23:08:07 IST" name="aftermethod" finished-at="2024-07-25T23:08:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:TestComponant.TestCase1@7586beff]" started-at="2024-07-25T23:08:07 IST" name="aftersuite" finished-at="2024-07-25T23:08:07 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+at EngineComponent.Base.aftersuite(Base.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:404)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- TestComponant.TestCase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
